@@ -114,7 +114,7 @@ function update_selected_cards(){
         card_cont.classList.add('card_container');
 
         card_img.src  = "./resources/Cards/(" + card.id + ").png";
-        card_type.src = "./resources/Card Types/" + card.type.toLowerCase() + ".png";
+        card_type.src = "./resources/Card_Types/" + card.type.toLowerCase() + ".png";
         
         card_img .classList.add("card_img");
         card_type.classList.add("card_type");
@@ -203,7 +203,7 @@ function update_search_results(query){
             const type = document.createElement('img');
 
             img. src = "./resources/Cards/(" + item.id + ").png";
-            type.src = "./resources/Card Types/" + item.type.toLowerCase() + ".png";
+            type.src = "./resources/Card_Types/" + item.type.toLowerCase() + ".png";
 
             div. classList.add('card_container');
             img. classList.add('card_img');
@@ -221,3 +221,4 @@ function update_search_results(query){
         }
     });
 }
+
