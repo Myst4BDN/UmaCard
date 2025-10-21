@@ -5156,7 +5156,7 @@
 
 ,    {   "name": "Seiun Sky", "lb": 0,
         "id": 74,
-        "type": "Stamina",
+        "type": "Wit",
         "friendship_bonus": 25,
         "speed_bonus": 1,
         "training_effectiveness": 5,
@@ -5169,7 +5169,7 @@
     },
     {   "name": "Seiun Sky", "lb": 1,
         "id": 74,
-        "type": "Stamina",
+        "type": "Wit",
         "friendship_bonus": 27,
         "speed_bonus": 2,
         "training_effectiveness": 6,
@@ -5182,7 +5182,7 @@
     },
     {   "name": "Seiun Sky", "lb": 2,
         "id": 74,
-        "type": "Stamina",
+        "type": "Wit",
         "friendship_bonus": 30,
         "speed_bonus": 2,
         "training_effectiveness": 7,
@@ -5195,7 +5195,7 @@
     },
     {   "name": "Seiun Sky", "lb": 3,
         "id": 74,
-        "type": "Stamina",
+        "type": "Wit",
         "friendship_bonus": 32,
         "speed_bonus": 2,
         "training_effectiveness": 8,
@@ -5208,7 +5208,7 @@
     },
     {   "name": "Seiun Sky", "lb": 4,
         "id": 74,
-        "type": "Stamina",
+        "type": "Wit",
         "friendship_bonus": 35,
         "speed_bonus": 2,
         "training_effectiveness": 10,
@@ -5280,6 +5280,7 @@
         "hint_frequency": 50,
         "specialty_priority": 70
     }
+
 
 
 
