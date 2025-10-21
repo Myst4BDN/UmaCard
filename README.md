@@ -13,5 +13,6 @@ When I first started playing Umamusume, I couldn't understand what support cards
 
 ## Notes
 - The tool was mainly created for testing and personal use.
-- Probably doesn't work on all devices
+- Probably doesn't work on all devices.
+- Might update in the future to have more features, and the newer released cards.
 
