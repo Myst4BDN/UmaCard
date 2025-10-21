@@ -1,3 +1,5 @@
+## [Use Here](https://myst4bdn.github.io/UmaCard)
+
 # UmaCard
 
 Basic tool to compare Umamusume support cards for beginner players.
