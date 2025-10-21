@@ -12,6 +12,7 @@ function load_cards() {
             cards = json;
         });
 }
+// sort by type
 function sort_cards(){
     if(!cards_loaded) return;
 
@@ -88,7 +89,7 @@ function get_stat(card, stat){
 
 
 let selected_cards = [];
-// init selected card elemts
+// init selected card elements
 const selected_div = document.getElementById("selected_container");
 
 // selected cards
@@ -113,7 +114,7 @@ function update_selected_cards(){
         card_cont.classList.add('card_container');
 
         card_img.src  = "./resources/Cards/(" + card.id + ").png";
-        card_type.src = "./resources/Card Types/" + card.type + ".png";
+        card_type.src = "./resources/Card Types/" + card.type.toLowerCase() + ".png";
         
         card_img .classList.add("card_img");
         card_type.classList.add("card_type");
