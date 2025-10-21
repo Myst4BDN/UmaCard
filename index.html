@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Uma Card Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./resources/favicon.png" type="image/png">
+</head>
+
+<body>
+    <!-- Header -->
+    <h1>Umamusume Support Card Calculator</h1>
+    <p class="basic">This site aims to simplify comparing support cards for beginner Umamusume players.</p>
+    <p class="basic">To use, select a card and its Limit Break level, then select more cards to compare their total rating.</p>
+    
+
+    <!-- card list -->
+    <div class="list_container">
+        <!-- search results -->
+        <div class="box">
+            <input type="text" id="card_search_field" placeholder="Search card...">
+            <div id="card_search_results"> </div>
+        </div>
+        
+        <!-- selected cards -->
+        <div class="box" id="selected_container">
+  
+        </div>
+    </div>
+
+    <div class="basic-small">
+        Data sourced from <a href="https://gametora.com/umamusume" target="_blank">GameTora</a>.<br>
+        Calculator by Myst_4BDN
+    </div>
+    
+    
+    <script src="./script.js"></script>
+</body>
+</html>
