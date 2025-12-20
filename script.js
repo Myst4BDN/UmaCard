@@ -119,6 +119,11 @@ function update_selected_cards(){
         card_img .classList.add("card_img");
         card_type.classList.add("card_type");
 
+        card_img.addEventListener('click', () => {
+            selected_cards.splice(i, 1);
+            update_selected_cards();
+        })
+
         card_cont.append(card_img, card_type);
 
         // create lb selector
@@ -221,4 +226,3 @@ function update_search_results(query){
         }
     });
 }
-

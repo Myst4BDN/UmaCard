@@ -1,6 +1,6 @@
 /* Defaults */
 body{
-    background-color: #1b2029;
+    background-color: #0f131d;
 }
 h1{
     font-family: sans-serif;
@@ -66,29 +66,29 @@ input[type="text"]::placeholder{
 .list_container{
     display: flex;
     justify-content: space-between;
-    width: 75%;
+    width: 97%;
     padding:20px;
 
-    margin: -15px auto 0
+    margin: -15px 0
 }
 .box{
-    background-color: #2d3440;
+    background-color: #1b2029;
 
     border: 2px solid #11151c;
     border-radius: 10px;
 
     width: 49.5%;
-    height: 600px;
+    height: 700px;
 }
 
 /* Search Card */
 #card_search_results{
-    margin: 10px 0px 0px 0px;
-    padding: 20px 10px;
+    margin: 1% 0px 0px 0px;
+    padding: 2% 4%;
     display:flex;
     flex-wrap:wrap;
 
-    max-height: 485px;
+    max-height: 585px;
     overflow-y: auto;
 }
 .search_card_icon{
@@ -107,15 +107,15 @@ input[type="text"]::placeholder{
     gap: 4px;                    /* small uniform spacing between cards */
     border-radius: 9px;
 
-    max-height: 600px;
+    max-height: 700px;
     overflow-y: auto;
 }
 .lb_selector{
     width: 95px;
 }
 .selected_card{
-    width: 100px;
-    height: 150px;
+    width: calc(75px + 1.8vw);
+    height: 15vh;
 
     background-color: #383f4d;
 
@@ -147,16 +147,24 @@ input[type="text"]::placeholder{
     font-family: sans-serif;
     font-weight: bolder;
     color: #bbbbbb;
+
+    cursor:pointer;
 }
 
 /* Card Display */
 .card_container{
-    width:83px;
+    width:calc(50px + 1.8vw);
     height:auto;
 
     position:relative;
 
     margin:5px;
+
+    cursor: pointer;
+    transition: 0.25s
+}
+.card_container:hover{
+    transform: scale(1.05);
 }
 .card_img{
     width: 100%;
